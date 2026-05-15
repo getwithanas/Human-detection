@@ -1,0 +1,20 @@
+# ──────────────────────────────────────────
+#  requirements.txt
+# ──────────────────────────────────────────
+opencv-python>=4.9.0
+numpy>=1.24.0
+ultralytics>=8.0.0       # YOLOv8  (auto-downloads yolov8n.pt on first run)
+aiortc>=1.14.0
+av>=16.1.0
+aiohttp>=3.13.5
+
+
+
+## ── AI Image Upscaler (God-Level Engine) ──
+torch>=2.0.0             # GPU/MPS/CPU inference
+torchvision>=0.15.0
+pillow>=10.0.0           # Image I/O
+basicsr>=1.4.2           # Real-ESRGAN backbone
+facexlib>=0.3.0          # Face detection utils
+realesrgan>=0.3.0        # Core AI upscale model
+gfpgan>=1.3.8            # Face enhancement (portraits)
